@@ -1,0 +1,14 @@
+[project]
+name = "mems-calibration"
+version = "0.1.0"
+description = "Reproduction of six-position MEMS accelerometer calibration method from Sensors (2014)"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "pandas>=3.0.3",
+    "numpy>=2.4.6",
+]
+
+[[tool.uv.index]]
+url = "https://pypi.tuna.tsinghua.edu.cn/simple"
+default = true
